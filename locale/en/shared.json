@@ -1,0 +1,376 @@
+{
+  "common": {
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "meta": {
+    "title": "Sprii - Liveshopping Marketplace"
+  },
+  "routes": {
+    "Home": "Home",
+    "Login": "Log In",
+    "SingleShow": "Single Show",
+    "Shows": "Shows",
+    "Products": "Products",
+    "Categories": "Categories",
+    "GetFeatured": "Get Featured",
+    "Hosts": "Hosts",
+    "SingleHost": "Single Host",
+    "GetInTouch": "Get in touch",
+    "SignUp": "Sign Up",
+    "TermsAndConditions": "Terms And Conditions",
+    "PrivacyPolicy": "Privacy Policy",
+    "ResetPassword": "Reset Password",
+    "More": "More",
+    "Orders": "Orders"
+  },
+  "alerts": {
+    "success": "Success",
+    "error": "Error",
+    "generic_error": "Ooops! Something went wrong, log in or try again later.",
+    "generic_success": "Succesfully performed the action",
+    "host_subscribe": {
+      "header": "Do you want to subscribe host also?",
+      "yes": "Yes, subscribe",
+      "no": "No, don't subscribe"
+    }
+  },
+  "home": {
+    "main_copy": "Welcome to SPRII, your online shopping mall that allows you to jump from one store to another at the click of a mouse. Here you get access to endless inspiration and all your favourite brands, stores, and products without ever leaving your couch. Talk about convenience!",
+    "subtitle": "First of all",
+    "title": "Live shopping like you've never seen before",
+    "cta_button": "Get your shop on",
+    "no_shows": "No shows found",
+    "see_all": "see all",
+    "discover": "Discover",
+    "upcoming": "Upcoming",
+    "hosts": "Hosts",
+    "favorite_hosts_live": "Live from your favourite hosts",
+    "favorite_hosts_planned": "Starting soon from your favorite hosts",
+    "see_all_live": "See all shows",
+    "see_all_planned": "See all planned shows",
+    "see_all_hosts": "See all hosts"
+  },
+  "footer": {
+    "copy": "Experience a new era of online shopping with SPRII, the best-in-class social shopping platform.",
+    "copyright": "© 2022 Sprii",
+    "terms": "Terms & Conditions",
+    "policy": "Privacy Policy",
+    "social": "Social",
+    "hosts": "Hosts",
+    "customers": "Customers",
+    "explore_shows": "Explore all shows",
+    "how_it_works": "How it works",
+    "contact": "Get in touch",
+    "cookie_declaration": "Cookie Declaration"
+  },
+  "authentication": {
+    "welcome": "Welcome",
+    "email": "Email address",
+    "full_name": "Full name",
+    "password": "Password",
+    "password_confirmation": "Password Confirmation",
+    "disclaimer": "Logging in works currently for hosts and admins only",
+    "signup_title": "Please register",
+    "signup_button": "Create an account",
+    "login_title": "Please login",
+    "login_button": "Log in",
+    "logout_button": "Log out",
+    "facebook_button": "Continue with Facebook",
+    "apple_button": "Continue with Apple",
+    "no_account": "Don't have an account?",
+    "no_account_redirect": "Please register",
+    "has_an_account": "Already have an account?",
+    "has_an_account_redirect": "Please log in",
+    "forgot_password": "Forgot your password?",
+    "eg_name": "e.g. Julie Smith",
+    "eg_email": "e.g. julie_smith{'@'}gmail.com",
+    "eg_password": "Something secure",
+    "reset": {
+      "reset_password_title": "Reset password",
+      "link_sent": "We've sent a reset link to {email}. Please check your email.",
+      "disclaimer": "Please confirm your email so we can send you a reset link",
+      "send_link": "Send me a reset link",
+      "go_login": "Go to the Log in page"
+    },
+    "error": {
+      "email_already_exists": "Provided email address is already in use",
+      "invalid_password": "Invalid password. Password must be at least 6 digits long",
+      "user_not_found": "The entered user was not found",
+      "wrong_password": "The entered password is invalid",
+      "email_or_password_invalid": "The entered email or password is invalid. Please try again.",
+      "too_many_requests": "The request from this device have been blocked due to unusual activity. Please try again later.",
+      "too_many_attempts": "This account has been temporarily disabled due to too many failed login attempts",
+      "weak_password": "Weak password. Password should be at least 6 characters",
+      "closed": "The popup was closed",
+      "default": "Something went wrong. Please try again"
+    },
+    "accept_terms": "I agree to ",
+    "accept": "I agree",
+    "newsletter_subscription": "I would like to receive the Sprii Newsletter."
+  },
+  "validations": {
+    "required": "This field is required.",
+    "minLength": "This field must be at least {min} characters long.",
+    "maxLength": "This field cannot be longer than {max} characters.",
+    "sameAsRef": "Fields didn't match.",
+    "email": "This is not a valid email address.",
+    "isFieldChecked": "Checking this field is required."
+  },
+  "shows": {
+    "discover": "Discover",
+    "upcoming": "Upcoming shows",
+    "total": "Nr of shows: {count}",
+    "load_more": "Load more"
+  },
+  "hosts": {
+    "total": "Nr of hosts: {count}",
+    "no_data": "No hosts found",
+    "shows": "SHOW | SHOWS"
+  },
+  "show_page": {
+    "go_back": "Go back",
+    "source_video": "Go to source video",
+    "share": "Share",
+    "error": {
+      "title": "Show not found",
+      "message": "Please try again later"
+    }
+  },
+  "single_host": {
+    "no_planned": "No planned events",
+    "no_live_vod": "No live or video-on-demand events",
+    "no_products": "No products"
+  },
+  "share_button": {
+    "share": "Share",
+    "copy_link": "Copy link",
+    "copied": "Link's copied 🎉",
+    "host_message": "Check out this amazing seller {host} on Sprii.live!",
+    "show_message": "I'm watching {show} on Sprii.live. Join me here!"
+  },
+  "filters": {
+    "apply": "Apply",
+    "categories": "Categories",
+    "clear_all": "Clear all",
+    "clear_all_filters": "Clear all filters",
+    "filter": "Filter | Filters",
+    "tags": "Tags",
+    "languages": "Languages",
+    "countries": "Countries",
+    "price_range": "Price range",
+    "price_min": "min.",
+    "price_max": "max.",
+    "from": "from",
+    "to": "to",
+    "search": "Search",
+    "date": "Date",
+    "show_name": "Show name",
+    "show_or_host": "show or host name",
+    "product_name": "product name",
+    "sorting": {
+      "alphabetical": "By store name",
+      "chronological": "By date",
+      "ascending": "Ascending",
+      "descending": "Descending",
+      "label": "Sorting"
+    },
+    "show_results": "Show results",
+    "see_all": "See all options",
+    "hide": "Hide options",
+    "no_results": "No events matching your criteria"
+  },
+  "user": {
+    "logout_confirmation": "Are you sure you want to log out?",
+    "menu": {
+      "profile": "My profile",
+      "orders": "Orders",
+      "favorites": "Favorites",
+      "logout": "Log out"
+    },
+    "settings": {
+      "user_profile": "My profile",
+      "save_changes": "Save changes",
+      "tabs_my_data": "My data",
+      "tabs_notifications": "Notifications",
+      "tabs_orders": "Orders",
+      "change_password": "Change password",
+      "avatar": "Avatar",
+      "avatar_specs": "JPG, PNG or WebP, square would be best and minimum 120x120 pixels",
+      "delete_avatar": "Delete avatar",
+      "avatar_delete_confirm": "Are you sure you want to delete your avatar?",
+      "avatar_not_image": "Selected file is not an accepted image",
+      "upload_file": "Upload file",
+      "upload_failed": "Upload failed. Please try again.",
+      "drop_here": "Drop here",
+      "confirm_password": "Confirm password to save changes",
+      "confirm_facebook": "Reauthorize with Facebook to save changes",
+      "delete": "Delete account",
+      "cancel": "Cancel",
+      "submit": "Submit",
+      "close": "Close account",
+      "submit_facebook": "Submit With Facebook",
+      "submit_apple": "Submit With Apple",
+      "submit_success": "Succesfully changed user data",
+      "submit_error": "Something went wrong and user data couldn't be changed. Please recheck the values and try again",
+      "notifications": {
+        "notify_me": "Notify me about",
+        "notify_me_general": "General",
+        "notify_me_hosts": "From your favorite hosts",
+        "highlightedEvents": "Highlighted events",
+        "newHosts": "New hosts",
+        "updates": "Updates from Sprii",
+        "otherNews": "Other news",
+        "showsStarting": "Shows starting"
+      },
+      "account_delete": {
+        "delete": "Delete your account",
+        "confirm": "To confirm please type in ",
+        "confirm_label": "Confirmation",
+        "confirm_word": "delete",
+        "do_you_really": "Do you really want to",
+        "reason_question": "Why are you deleting your account?",
+        "reason_no_need": "I don't need it anymore",
+        "reason_switching": "I'm switching to something else",
+        "reason_other": "Other",
+        "consequences_disclaimer": "Deleting the account will do the following:",
+        "cannot_be_reversed": "This action cannot be reversed",
+        "are_you_sure": "Are you sure?",
+        "final_button_no": "No - go back to the app",
+        "final_button_yes": "Yes - close account"
+      },
+      "orders": {
+        "title": "Orders",
+        "created": "Created",
+        "deadline": "Deadline",
+        "go_to_show": "Go to show",
+        "go_to_checkout": "Go to checkout",
+        "no_orders_message": "You haven't placed any order yet."
+      }
+    }
+  },
+  "search": {
+    "live": "Live",
+    "vod": "Recorded",
+    "planned": "Upcoming",
+    "categories": "Categories",
+    "hosts": "Hosts",
+    "featured": "Featured",
+    "input_placeholder": "Search?",
+    "fetch_error_title": "Search failed",
+    "fetch_error_message": "Search results failed to load. Try again later",
+    "no_items": "No items found"
+  },
+  "event": {
+    "live": "Live now",
+    "recording": "Recording",
+    "title": "Event title",
+    "today": "Today",
+    "tomorrow": "Tomorrow"
+  },
+  "products": {
+    "tag": "Product",
+    "swiper": {
+      "title": "Products from shows"
+    },
+    "error": {
+      "no_timestamp": {
+        "title": "Time not found",
+        "message": "Product show time couldn't be found"
+      }
+    },
+    "total": "Nr of products: {count}",
+    "no_data": "No products found"
+  },
+  "tags_and_categories": {
+    "Accessories": "Accessories",
+    "Fashion": "Fashion",
+    "Electronics": "Electronics",
+    "Electronic": "Electronics",
+    "Beauty": "Beauty",
+    "Interiour": "Interiour",
+    "Home and Garden": "Home and Garden",
+    "Hobby": "Hobby",
+    "Food, Drink & Groceries": "Food, Drink & Groceries",
+    "Jewelery": "Jewellery",
+    "Pets": "Pets",
+    "Children": "Children",
+    "Launch": "Launch",
+    "Sale": "Sale",
+    "New items": "New items",
+    "Limited": "Limited",
+    "Deal": "Deal",
+    "Free": "Free",
+    "Favorits": "Favorites",
+    "Giveaway": "Giveaway"
+  },
+  "countries": {
+    "DK": "Denmark"
+  },
+  "get_in_touch": {
+    "subtitle": "hello",
+    "title": "Get in touch",
+    "paragraph": {
+      "0": "Feel free to ask us anything that pops into your mind. We love a good chat as much as mom's cooking. If you have product-specific questions, please contact the provider. ",
+      "1": {
+        "content": "Want your brand or shop to be featured on SPRII? ",
+        "click-here": "Click here",
+        "content-2": " to learn more and get in touch"
+      }
+    },
+    "form": {
+      "contact_us": "Contact us",
+      "send_message": "Send your message",
+      "how_can_we_help": "How can we help you?",
+      "email": "Email address",
+      "message": "Message",
+      "success_notification_message": "Your message was sent successfully! We will answer as soon as possible",
+      "error_notification_message": "Ooops! Something went wrong, log in or try again later."
+    }
+  },
+  "account_closed": {
+    "confirmation": "Your account has been closed",
+    "thank_you": "Thank you for using Sprii"
+  },
+  "not_found": {
+    "message": "Sorry! We haven't found the page you're looking for"
+  },
+  "codepush": {
+    "success": "App was successfully updated"
+  },
+  "notification": {
+    "see_content": "Take me there",
+    "see_show": "Take me to the show",
+    "see_host": "Take me to the host",
+    "subscribe": {
+      "header": "Hooray!",
+      "message": "You have just added {name} to your favourites!"
+    },
+    "unsubscribe": {
+      "header": "Unsubscribed",
+      "message": "You have just removed {name} from your favourites."
+    },
+    "failure": {
+      "header": "Something went wrong",
+      "message": "Please try again later."
+    }
+  },
+  "favorites_page": {
+    "title": "Favorites",
+    "tabs": {
+      "all": "Everything",
+      "live": "Live shows",
+      "past": "Past shows",
+      "planned": "Upcoming shows",
+      "hosts": "Hosts",
+      "products": "Products",
+      "no_live": "No live events found",
+      "no_past": "No video-on-demand events found",
+      "no_planned": "No planned events found",
+      "no_hosts": "No hosts found",
+      "no_products": "No products found",
+      "see_host": "Take me to the host"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "get_featured": {
+    "subtitle": "IT'S TIME TO",
+    "title": "Get featured",
+    "paragraph": {
+      "0": "SPRII was built for sharing stories, and now you get to share yours. You don't have to fit a certain mould to become part of our community – we welcome hosts of all shapes and sizes. ",
+      "1": "Get ready to meet a growing community of live shopping-enthusiasts and ping-pong with potential customers in real-time. ",
+      "2": "By creating exciting, engaging, and educational video content, you can draw your audience in and leave them hungry for more. It's time to get your creative juices flowing. ",
+      "3": "Would you also like to reach a large audience and grow your customer base? Easy peasy, lemon squeezy. Simply set up your live campaign with your preferred live selling software and start streaming today. ",
+      "4": "PROTIP",
+      "5": "When using the software solution ELISA, your shows will automatically be featured on SPRII.",
+      "6": "Not yet an ELISA user?"
+    },
+    "cta_1": "Request a free demo",
+    "cta_2": "Try it for free",
+    "calendly": "https://calendly.com/elisa-sales-international",
+    "": "Try it for free",
+    "form_title": "Contact us",
+    "heading": {
+      "3": "Count me in! How do I get started? "
+    },
+    "box_content": {
+      "1": {
+        "stats": "10-100%",
+        "caption": "more revenue"
+      },
+      "2": {
+        "stats": "<15%",
+        "caption": "average return rate"
+      },
+      "3": {
+        "stats": "2-20x",
+        "caption": "higher conversion"
+      },
+      "4": {
+        "stats": "2-50x",
+        "caption": "more contact time"
+      },
+      "5": {
+        "stats": "2-10x",
+        "caption": "more views"
+      },
+      "6": {
+        "stats": "10-100x",
+        "caption": "more comments"
+      }
+    }
+  }
+}

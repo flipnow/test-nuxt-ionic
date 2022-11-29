@@ -1,0 +1,384 @@
+{
+  "common": {
+    "close": "Luk",
+    "yes": "Ja",
+    "no": "Nej"
+  },
+  "meta": {
+    "title": "Sprii - Markedsplads for liveshopping"
+  },
+  "routes": {
+    "Home": "Hjem",
+    "Login": "Log ind",
+    "SingleShow": "Show",
+    "Shows": "Shows",
+    "Products": "Produkter",
+    "Categories": "Kategorier",
+    "GetFeatured": "Bliv vært",
+    "Hosts": "Værter",
+    "SingleHost": "Vært",
+    "GetInTouch": "Snak med os",
+    "SignUp": "Tilmelding",
+    "TermsAndConditions": "Handelsbetingelser",
+    "PrivacyPolicy": "Fortrolighedspolitik",
+    "ResetPassword": "Nulstil kodeord",
+    "More": "Mere",
+    "Orders": "Ordrer"
+  },
+  "home": {
+    "main_copy": "Hop ubesværet fra liveshow til liveshow. Lad dig underholde. Saml inspiration. Bliv overrasket. Deltag. Følg dine yndlingsværter og få besked, når de går live. Det er ligetil. Det er liveshopping, som du aldrig har oplevet det før.",
+    "subtitle": "Velkommen til Sprii",
+    "title": "Liveshopping som du aldrig har oplevet det før",
+    "cta_button": "Lad shoppingturen begynde",
+    "no_shows": "Intet fundet",
+    "see_all": "Se alt",
+    "discover": "Udforsk",
+    "upcoming": "Kommende",
+    "hosts": "Værter",
+    "favorite_hosts_live": "Live fra dine favorit værter",
+    "favorite_hosts_planned": "Kommer snart fra dine favorit værter",
+    "see_all_live": "Se alle shows",
+    "see_all_planned": "Se alle planlagte shows",
+    "see_all_hosts": "Se alle værter"
+  },
+  "footer": {
+    "copy": "Sprii er den største liveshopping-platform i Danmark, hvor forbrugere, forhandlere og brands mødes.",
+    "copyright": "© 2022 Sprii",
+    "terms": "Handelsbetingelser",
+    "policy": "Privatlivspolitik",
+    "social": "Social",
+    "hosts": "Værter",
+    "customers": "Shoppere",
+    "explore_shows": "Udforsk alle shows",
+    "how_it_works": "Sådan virker det",
+    "contact": "Snak med os",
+    "cookie_declaration": "Cookiedeklaration"
+  },
+  "authentication": {
+    "welcome": "Velkommen",
+    "email": "Email",
+    "full_name": "Navn",
+    "password": "Kodeord",
+    "password_confirmation": "Bekræft kodeord",
+    "disclaimer": "Midlertidig begrænsning - Kun værter or admins kan logge in",
+    "signup_title": "Opret profil",
+    "signup_button": "Opret profil",
+    "login_title": "Log ind",
+    "login_button": "Log ind",
+    "logout_button": "Log ud",
+    "facebook_button": "Fortsæt med Facebook",
+    "apple_button": "Fortsæt med Apple",
+    "no_account": "Har du ikke en profil?",
+    "no_account_redirect": "Opret profil",
+    "has_an_account": "Har du allerede en profil?",
+    "has_an_account_redirect": "Log ind",
+    "forgot_password": "Glemt kodeord?",
+    "reset": {
+      "reset_password_title": "Nulstil kodeord",
+      "link_sent": "Vi har sendt dig et nulstillingslink til “{email}”.",
+      "disclaimer": "Bekræft venligst din email, så vi kan sende dig et nulstillingslink",
+      "send_link": "Send mig nulstillingslink",
+      "go_login": "Gå til Log ind siden"
+    },
+    "error": {
+      "email_already_exists": "Denne email er allerede i brug",
+      "invalid_password": "Forkert kodeord. Kodeordet skal være mindst 6 cifre langt",
+      "user_not_found": "Denne bruger kan ikke findes",
+      "wrong_password": "Dette kodeord er ikke korrekt",
+      "email_or_password_invalid": "Email eller kodeord er ugyldigt. Prøv venligst igen.",
+      "too_many_requests": "Anmodningen fra denne enhed er blevet blokeret på grund af usædvanlig aktivitet. Prøv igen senere.",
+      "too_many_attempts": "Denne konto er blevet midlertidigt deaktiveret på grund af for mange mislykkede loginforsøg",
+      "password_reset": "Nulstilling af kodeord på denne konto er blevet forsøgt for mange gange.",
+      "closed": "Popup er blevet lukket.",
+      "default": "Ups, noget gik galt. Prøv venligst igen",
+      "weak_password": "Svagt kodeord. Dit kodeord skal indeholde mindst 6 karakterer"
+    },
+    "eg_name": "f.eks. Julie Jensen",
+    "eg_email": "F.eks julie_jensen{'@'}gmail.com",
+    "eg_password": "Noget sikkert",
+    "accept_terms": "Jeg accepterer",
+    "accept": "Jeg accepterer",
+    "newsletter_subscription": "Jeg vil gerne modtage sprii nyhedsbrevet"
+  },
+  "validations": {
+    "required": "Dette felt er krævet.",
+    "minLength": "Indholdet skal have mindst {min} karakterer.",
+    "sameAsRef": "De to input er ikke ens.",
+    "email": "Dette er ikke en valid email adresse.",
+    "maxLength": "Dette felt kan ikke være længere end {max} karakterer",
+    "isFieldChecked": "Dette felt er påkrævet"
+  },
+  "shows": {
+    "discover": "Udforsk",
+    "upcoming": "Kommende shows",
+    "total": "Antal shows: {count}",
+    "load_more": "Vis flere"
+  },
+  "hosts": {
+    "total": "Antal værter: {count}",
+    "no_data": "Ingen værter fundet",
+    "shows": "SHOW | SHOWS"
+  },
+  "show_page": {
+    "go_back": "Tilbage til alle shows",
+    "source_video": "Gå til kilden",
+    "share": "Del",
+    "error": {
+      "message": "Prøv igen senere",
+      "title": "Show kunne ikke findes"
+    }
+  },
+  "single_host": {
+    "no_planned": "Ingen planlagte events.",
+    "no_live_vod": "Ingen events",
+    "no_products": "Igen produkter"
+  },
+  "share_button": {
+    "share": "Del",
+    "copy_link": "Kopier link",
+    "copied": "Link kopieret 🎉",
+    "host_message": "Denne vært bør opleves. Se {host} på Sprii.live!",
+    "show_message": "Jeg ser {show} på Sprii.live - Følg med her!"
+  },
+  "filters": {
+    "apply": "Gem",
+    "categories": "Kategorier",
+    "clear_all": "Ryd alt",
+    "clear_all_filters": "Ryd alle filtre",
+    "filter": "filter | filtre",
+    "tags": "Tags",
+    "languages": "Sprog",
+    "countries": "Lande",
+    "price_range": "Pris spænd",
+    "price_min": "min",
+    "price_max": "max",
+    "from": "fra",
+    "to": "til",
+    "search": "Søg",
+    "date": "Dato",
+    "show_name": "Navn på Show",
+    "show_or_host": "navn på show eller vært",
+    "product_name": "produktnavn",
+    "sorting": {
+      "alphabetical": "På værtens navn",
+      "chronological": "På dato",
+      "ascending": "Stigende",
+      "descending": "Aftagende",
+      "label": "Sortering"
+    },
+    "show_results": "Vis resultater",
+    "see_all": "Se alle optioner",
+    "hide": "Gem optioner",
+    "no_results": "Ingen events matcher din søgning"
+  },
+  "user": {
+    "logout_confirmation": "Er du sikker på at du vil logge ud?",
+    "menu": {
+      "profile": "Min profil",
+      "orders": "Ordrer",
+      "favorites": "Favoritter",
+      "logout": "Log ud"
+    },
+    "settings": {
+      "account_delete": {
+        "are_you_sure": "Er du sikker?",
+        "cannot_be_reversed": "Denne handling kan ikke gøres om",
+        "confirm": "For at bekræft, skriv i",
+        "confirm_label": "Bekræft",
+        "confirm_word": "slet",
+        "consequences_disclaimer": "Slet af kontoen vil gøre det følgende:",
+        "delete": "Slet din konto",
+        "do_you_really": "Vil du virkelig",
+        "final_button_no": "Nej - gå tilbage",
+        "final_button_yes": "Ja - slet konto",
+        "reason_no_need": "Jeg behøver den ikke mere",
+        "reason_other": "Andet",
+        "reason_question": "Hvorfor vil du gerne slette din konto?",
+        "reason_switching": "Jeg skifter til noget andet"
+      },
+      "avatar": "Avatar",
+      "avatar_specs": "JPG, PNG eller WebP, minimum 120x120 pixels",
+      "delete_avatar": "Slet avatar",
+      "avatar_delete_confirm": "Er du sikker på at du ønsker at slette dit profilbillede?",
+      "avatar_not_image": "Den valgte fil er ikke et accepteret billede",
+      "cancel": "Annuller",
+      "change_password": "Skift kodeord",
+      "close": "Luk konto",
+      "confirm_facebook": "Log ind med facebook for at gemme ændringer",
+      "confirm_password": "Bekræft kodeord for at gemme ændringer",
+      "delete": "Slet konto",
+      "drop_here": "Træk hertil",
+      "notifications": {
+        "highlightedEvents": "Fremhævede shows",
+        "newHosts": "Nye hosts",
+        "notify_me": "Informer mig om",
+        "notify_me_general": "Generelt",
+        "notify_me_hosts": "Fra dine favorit hosts",
+        "otherNews": "Andre nyheder",
+        "showsStarting": "Shows der starter",
+        "updates": "Opdateringer fra Sprii"
+      },
+      "save_changes": "Gem ændringer",
+      "submit": "Send",
+      "submit_error": "Noget gik galt, og din bruger kunne ikke bliver ændret. Tjek ændringer og prov igen",
+      "submit_facebook": "Send med Facebook",
+      "submit_apple": "Send med Apple",
+      "submit_success": "Din bruger er opdateret",
+      "tabs_my_data": "Mine data",
+      "tabs_notifications": "Notifikationer",
+      "tabs_orders": "Ordrer",
+      "upload_file": "Upload fil",
+      "upload_failed": "Upload fejlede. Prøv venligst igen.",
+      "user_profile": "Min profil",
+      "orders": {
+        "title": "Ordrer",
+        "created": "Oprettet",
+        "deadline": "Udløbsdato",
+        "go_to_show": "Gå til show",
+        "go_to_checkout": "Gå til kurv",
+        "no_orders_message": "Du har ikke nogle ordrer endnu."
+      }
+    }
+  },
+  "search": {
+    "live": "Live",
+    "vod": "On demand",
+    "planned": "Kommende",
+    "categories": "Kategorier",
+    "hosts": "Værter",
+    "featured": "Fremhævede",
+    "input_placeholder": "Søg?",
+    "fetch_error_title": "Søgning fejlede",
+    "fetch_error_message": "Søgeresultater kan ikke vises. Prøv venligst senere",
+    "no_items": "Intet fundet"
+  },
+  "event": {
+    "live": "Live nu",
+    "recording": "Optagelse",
+    "title": "Event titel",
+    "today": "I dag",
+    "tomorrow": "I morgen"
+  },
+  "products": {
+    "tag": "Produkt",
+    "swiper": {
+      "title": "Produkter fra show"
+    },
+    "error": {
+      "no_timestamp": {
+        "message": "Tidspunkt for produktet kunne ikke findes",
+        "title": "Tid ikke fundet"
+      }
+    },
+    "total": "Antal produkter: {count}",
+    "no_data": "Ingen produkter fundet"
+  },
+  "orders": {
+    "your_orders": ""
+  },
+  "tags_and_categories": {
+    "Accessories": "Accessories",
+    "Fashion": "Mode",
+    "Electronics": "Elektronik",
+    "Electronic": "Elektronik",
+    "Beauty": "Skønhed",
+    "Interiour": "Interiør",
+    "Home and Garden": "Hjem og Have",
+    "Hobby": "Hobby",
+    "Food, Drink & Groceries": "Mad, Drikke & Indkøb",
+    "Jewelery": "Smykker",
+    "Pets": "Kæledyr",
+    "Children": "Børn",
+    "Launch": "Produkt launch",
+    "Sale": "Udsalg",
+    "New items": "Nyheder",
+    "Limited": "Begrænset",
+    "Deal": "Tilbuyd",
+    "Free": "Gratis",
+    "Favorits": "Favoritter",
+    "Giveaway": "Giveaway"
+  },
+  "countries": {
+    "DK": "Danmark"
+  },
+  "get_in_touch": {
+    "subtitle": "Hej",
+    "title": "Snak med os",
+    "paragraph": {
+      "0": "Føl dig fri og skyd løs med alle de spørgsmål, der dukker op. Vi elsker en god snak lige så højt som mors madlavning. Men hvis du har produkt-specifikke spørgsmål, beder vi dig kontakte forhandleren direkte. ",
+      "1": {
+        "content": "Skal dit brand eller din forretning også vises på Sprii? ",
+        "click-here": "Klik her",
+        "content-2": " for at blive klogere på dine muligheder."
+      }
+    },
+    "form": {
+      "contact_us": "Kontakt os",
+      "send_message": "Send din besked",
+      "how_can_we_help": "Hvordan kan vi hjælpe dig?",
+      "email": "Email adresse",
+      "message": "Besked",
+      "success_notification_message": "Din besked blev sendt! Vi svarer hurtigst muligt",
+      "error_notification_message": "Ups! Noget gik galt, log ind eller prøv igen senere"
+    }
+  },
+  "account_closed": {
+    "confirmation": "Din konto er blevet lukket",
+    "thank_you": "Tak fordi du bruger Sprii"
+  },
+  "alerts": {
+    "error": "Fejl",
+    "generic_error": "Ooops! Noget gik galt, log ind eller prøv igen senere.",
+    "generic_success": "Succes!",
+    "success": "Succes",
+    "host_subscribe": {
+      "header": "Vil du også abonnere på værten?",
+      "yes": "Ja, abonner",
+      "no": "Nej, abonner ikke"
+    }
+  },
+  "not_found": {
+    "message": "Øv! Vi kunne ikke finde den side du leder efter"
+  },
+  "codepush": {
+    "success": "Appen blev opdateret"
+  },
+  "notification": {
+    "see_content": "Tag mig derhen",
+    "see_show": "Tag mig med til showet",
+    "see_host": "Tag mig til værten",
+    "subscribe": {
+      "header": "Hurra!",
+      "message": "{name} er tilføjet til dine favoritter!"
+    },
+    "unsubscribe": {
+      "header": "Afmeldt",
+      "message": "{name} er fjernet fra dine favoritter."
+    },
+    "failure": {
+      "header": "Noget gik galt",
+      "message": "Prøv igen senere."
+    }
+  },
+  "languages": {
+    "en": "English",
+    "da": "Dansk"
+  },
+  "favorites_page": {
+    "title": "Favoritter",
+    "tabs": {
+      "all": "Alt",
+      "live": "Live shows",
+      "past": "Tidligere shows",
+      "planned": "Kommende shows",
+      "hosts": "Værter",
+      "products": "Produkter",
+      "no_live": "Der blev ikke fundet nogen livebegivenheder",
+      "no_past": "Ingen video-on-demand begivenheder fundet",
+      "no_planned": "Ingen planlagte begivenheder fundet",
+      "no_hosts": "Ingen værter fundet",
+      "no_products": "Ingen produkter fundet",
+      "see_host": "Tag mig til værten"
+    }
+  }
+}

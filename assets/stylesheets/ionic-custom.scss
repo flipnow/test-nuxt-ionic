@@ -1,0 +1,86 @@
+:root {
+  --ion-font-family: 'Faktum', sans-serif;
+  --ion-text-color: var(--green-900);
+  --ion-header-background: transparent;
+
+  // primary colors
+  --ion-color-primary: var(--green-800);
+  --ion-color-primary-rgb: 21, 70, 81;
+  --ion-color-primary-contrast: var(--white);
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #123e47;
+  --ion-color-primary-tint: #2c5962;
+
+  // secondary colors
+  --ion-color-secondary: var(--gray-900);
+  --ion-color-secondary-rgb: 29, 34, 43;
+  --ion-color-secondary-contrast: var(--white);
+  --ion-color-secondary-contrast-rgb: 255, 255, 255;
+  --ion-color-secondary-shade: #1a1e26;
+  --ion-color-secondary-tint: #343840;
+
+  // tetriary colors
+  --ion-color-tetriary: var(--gray-200);
+  --ion-color-tetriary-rgb: 231, 234, 239;
+  --ion-color-tetriary-contrast: #000000;
+  --ion-color-tetriary-contrast-rgb: 0, 0, 0;
+  --ion-color-tetriary-shade: #cbced2;
+  --ion-color-tetriary-tint: #e9ecf1;
+
+  // successs colors
+  --ion-color-success: #219653;
+  --ion-color-success-rgb: 33, 150, 83;
+  --ion-color-success-contrast: var(--white);
+  --ion-color-success-contrast-rgb: 255, 255, 255;
+  --ion-color-success-shade: #1d8449;
+  --ion-color-success-tint: #37a164;
+
+  // error colors
+  --ion-color-danger: #cd1818;
+  --ion-color-danger-rgb: 205, 24, 24;
+  --ion-color-danger-contrast: #ffffff;
+  --ion-color-danger-contrast-rgb: 255, 255, 255;
+  --ion-color-danger-shade: #b41515;
+  --ion-color-danger-tint: #d22f2f;
+
+  // danger colors
+  --ion-color-warning: #be610e;
+  --ion-color-warning-rgb: 190, 97, 14;
+  --ion-color-warning-contrast: #ffffff;
+  --ion-color-warning-contrast-rgb: 255, 255, 255;
+  --ion-color-warning-shade: #a7550c;
+  --ion-color-warning-tint: #c57126;
+  --ion-text-color: var(--ion-color-primary);
+}
+
+ion-card-title {
+  --color: var(--green-900);
+}
+
+ion-card-subtitle {
+  --color: var(--gray-500);
+}
+
+ion-toast {
+  --background: var(--white);
+  &::part(header) {
+    font-size: 16px;
+    color: var(--notification-text);
+    padding-bottom: 15px;
+  }
+  &::part(icon) {
+    grid-column: 1;
+    grid-row: 1/3;
+    font-size: 2em;
+  }
+  &::part(container) {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    grid-template-rows: max-content max-content;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 30.1471px 24.1177px rgba(0, 0, 0, 0.0456112),
+      0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 4.5288px 3.62304px rgba(0, 0, 0, 0.0243888);
+    background-color: var(--notification-background);
+    border-radius: 8px;
+    text-align: left;
+  }
+}

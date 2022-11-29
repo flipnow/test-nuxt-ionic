@@ -1,0 +1,48 @@
+{
+  "get_featured": {
+    "subtitle": "ER DU KLAR?",
+    "title": "Scenen er din",
+    "paragraph": {
+      "0": "Sprii er skabt til at dele historier, og nu kan du dele din. Du skal ikke passe ind i en kasse for at være en del af vores fællesskab – vi omfavner og indbyder værter i alle former og farver.",
+      "1": "Bliv en del af vores voksende fællesskab af liveshopping-ildsjæle og bliv klar til at spille bold med dine potentielle kunder.",
+      "2": "Brug imponerende, inviterende og informerende videoindhold til at tryllebinde dit publikum og giv dem smag på mere. Omfavn din kreative side og hop med på bølgen. ",
+      "3": "Vil du også nå ud til et enormt publikum og udvide din kundegruppe? Det er legende let. Opsæt din livekampagne med din foretrukne liveshopping-software og start din stream i dag. Nemt.",
+      "4": "PROTIP",
+      "5": "Når du bruger softwareløsningen ELISA, bliver dine liveshows automatisk vist på Sprii.",
+      "6": "Er du ikke ELISA-bruger endnu?"
+    },
+    "cta_1": "Få en gratis demonstration",
+    "cta_2": "Prøv ELISA helt gratis",
+    "calendly": "https://calendly.com/elisa-sales-denmark",
+    "form_title": "Kontakt os",
+    "heading": {
+      "3": "Solgt! Hvor skriver jeg mig op?"
+    },
+    "box_content": {
+      "1": {
+        "stats": "10-100%",
+        "caption": "større omsætning"
+      },
+      "2": {
+        "stats": "<15%",
+        "caption": "gennemsnitlig returrate"
+      },
+      "3": {
+        "stats": "2-20x",
+        "caption": "højere konverteringsrate"
+      },
+      "4": {
+        "stats": "2-50x",
+        "caption": "mere kontakttid"
+      },
+      "5": {
+        "stats": "2-10x",
+        "caption": "flere visninger"
+      },
+      "6": {
+        "stats": "10-100x",
+        "caption": "flere kommentarer"
+      }
+    }
+  }
+}

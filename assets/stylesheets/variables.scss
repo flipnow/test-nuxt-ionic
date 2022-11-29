@@ -1,0 +1,171 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --rainbow: #ed745c;
+  --rainbow-darker: #dd3918;
+  --rainbow-darkest: #932610;
+
+  --green-50: #f4f9fa;
+  --green-100: #e0f3f7;
+  --green-200: #bde5ee;
+  --green-300: #8ad2e2;
+  --green-400: #70c8db;
+  --green-500: #47b8d1;
+  --green-600: #2490a8;
+  --green-700: #206979;
+  --green-800: #154651;
+  --green-900: #17272b;
+
+  --gray-50: #f6f7f9;
+  --gray-100: #e7eaef;
+  --gray-200: #ced5de;
+  --gray-300: #a4b1c2;
+  --gray-400: #8597ad;
+  --gray-500: #677d99;
+  --gray-600: #52647a;
+  --gray-700: #3e4b5c;
+  --gray-800: #29323d;
+  --gray-900: #1d222b;
+
+  --input-error: linear-gradient(0deg, rgba(235, 87, 87, 0.15), rgba(235, 87, 87, 0.15)),
+    linear-gradient(0deg, #ffffff, #ffffff);
+  --input-error-text: #cd1818;
+  --input-error-border: #eb5757;
+
+  --notification-success: #27ae6026;
+  --notification-success-text: #219653;
+
+  --notification-error: #eb575726;
+  --notification-error-text: #b61616;
+
+  --notification-alert: #f2994a26;
+  --notification-alert-text: #be610e;
+
+  // for 1rem = 16px
+  --font-s-48: 3rem;
+  --font-s-40: 2.5rem;
+  --font-s-24: 1.5rem;
+  --font-s-20: 1.25rem;
+  --font-s-16: 1rem;
+  --font-s-14: 0.875rem;
+  --font-s-12: 0.75rem;
+
+  --font-w-600: 600;
+  --font-w-500: 500;
+  --font-w-400: 400;
+
+  --footer-link-primary-color: var(--white);
+  --footer-link-secondary-color: var(--gray-400);
+  --footer-link-color: var(--gray-300);
+
+  // tags colours
+  --blue-tag: #2d9cdb;
+  --blue-tag-tint-light: rgba(45, 156, 219, 0.05);
+  --blue-tag-tint: rgba(45, 156, 219, 0.2);
+  --blue-tag-tint-dark: rgba(45, 156, 219, 0.7);
+
+  --violet-tag: #9b51e0;
+  --violet-tag-tint-light: rgba(155, 81, 224, 0.05);
+  --violet-tag-tint: rgba(155, 81, 224, 0.2);
+  --violet-tag-tint-dark: rgba(155, 81, 224, 0.7);
+
+  --red-tag: #eb5757;
+  --red-tag-tint-light: rgba(235, 87, 87, 0.05);
+  --red-tag-tint: rgba(235, 87, 87, 0.2);
+  --red-tag-tint-dark: rgba(235, 87, 87, 0.7);
+
+  --green-tag: #27ae60;
+  --green-tag-tint-light: rgba(39, 174, 96, 0.05);
+  --green-tag-tint: rgba(39, 174, 96, 0.2);
+  --green-tag-tint-dark: rgba(39, 174, 96, 0.7);
+
+  --yellow-tag: #f2c94c;
+  --yellow-tag-tint-light: rgba(242, 201, 76, 0.05);
+  --yellow-tag-tint: rgba(242, 201, 76, 0.2);
+  --yellow-tag-tint-dark: rgba(242, 201, 76, 0.7);
+
+  --orange-tag: #f2994a;
+  --orange-tag-tint-light: rgba(242, 153, 74, 0.05);
+  --orange-tag-tint: rgba(242, 153, 74, 0.2);
+  --orange-tag-tint-dark: rgba(242, 153, 74, 0.7);
+
+  --grey-tag: #f2f2f2;
+  --grey-tag-tint: #e7eaef;
+
+  --black-tag: #4f4f4f;
+  --black-tag-tint: #52647a;
+
+  // layout
+  --margin-h-sm: 24px;
+  --margin-h-md: 40px;
+  --margin-h-lg: 64px;
+
+  --margin-sm: 0 var(--margin-h-sm);
+  --margin-md: 0 var(--margin-h-md);
+  --margin-lg: 0 var(--margin-h-lg);
+  --margin-xxl: 0 auto;
+  --max-width-xxl: 1312px;
+
+  // Dimensions
+  --top-stripe-height: calc(var(--ion-safe-area-top) + 0.5rem);
+  --top-menu-height: 6.5rem;
+  --top-menu-height-sm: 7.875rem;
+  --top-menu-top-padding: 1rem;
+  --home-wrapper-top-padding: 2rem;
+  --gradient-background-height: 0;
+  --transparent-bg-adjustment: 220px;
+  --bottom-nav-bar: calc(var(--ion-safe-area-bottom) + 3.125rem);
+
+  // Cards dimensions
+  --base-vertical-card-height: 29.9375rem;
+  --base-vertical-card-height-md: 33.5rem;
+
+  --base-vertical-card-width: 15.5625rem;
+  --base-vertical-card-width-md: 19rem;
+
+  --base-horizontal-card-height: 20.875rem;
+  --base-horizontal-card-height-md: 20.875rem;
+
+  --base-horizontal-card-width: 26.25rem;
+  --base-horizontal-card-width-md: 26.25rem;
+
+  --base-show-card-width: 17.9375rem;
+  --base-show-card-width-md: 25.875rem;
+
+  --base-show-card-height: 16.375rem;
+  --base-show-card-height-md: 20rem;
+
+  --hosts-card-width: 15.4375rem;
+  --hosts-card-width-md: 20.25rem;
+
+  --hosts-card-height: 19.875rem;
+  --hosts-card-height-md: 23.4375rem;
+
+  --base-vertical-card-width-min: 14.5rem;
+  --base-vertical-card-width-max: 20rem;
+  --base-vertical-card-width-min-md: 16rem;
+  --base-vertical-card-width-max-md: 24rem;
+
+  --base-show-card-width-min: 18rem;
+  --base-show-card-width-min-md: 20.5rem;
+  --base-show-card-width-max: 48rem;
+  --base-show-card-width-max-md: 31rem;
+
+  --hosts-card-width-min: 14rem;
+  --hosts-card-width-max: 26rem;
+  --hosts-card-width-min-md: 18rem;
+  --hosts-card-width-max-md: 28rem;
+
+  --card-gap: 32px;
+  --card-margin: 16px;
+  //form
+  --form-vertical-margin-sm: 20px;
+  --form-vertical-margin-md: 3rem;
+
+  // search modal
+  --search-modal-padding-side: 16px;
+  --search-modal-padding-vertical: 24px;
+  --search-modal-content-col-min: 200px;
+  --search-modal-content-col-max: 883px;
+  --search-modal-close-button-max: 8rem;
+}

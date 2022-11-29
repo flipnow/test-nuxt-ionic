@@ -1,0 +1,35 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3867246, 2020-12-16T11:57:38-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Faktum by Rene Bieder
+ * URL: https://www.myfonts.com/products/regular-faktum-213129
+ * Copyright: Copyright © 2014 Monotype Imaging Inc. All rights reserved.
+ * 
+ * 
+ * 
+ * © 2020 MyFonts Incn*/
+
+@font-face {
+  font-family: 'Faktum';
+  font-weight: 600;
+  src: url('@/assets/fonts/FaktumSemiBold.woff2') format('woff2'),
+    url('@/assets/fonts/FaktumSemiBold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Faktum';
+  font-weight: 500;
+  src: url('@/assets/fonts/FaktumMedium.woff2') format('woff2'), url('@/assets/fonts/FaktumMedium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Faktum';
+  font-weight: 400;
+  src: url('@/assets/fonts/FaktumRegular.woff2') format('woff2'),
+    url('@/assets/fonts/FaktumRegular.woff') format('woff');
+}

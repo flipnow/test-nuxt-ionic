@@ -1,0 +1,37 @@
+//576px
+@mixin sm {
+  @media screen and (min-width: 36rem) {
+    @content;
+  }
+}
+
+//768px
+@mixin md {
+  @media screen and (min-width: 48rem) {
+    @content;
+  }
+}
+
+// 992px
+@mixin lg {
+  @media screen and (min-width: 62rem) {
+    @content;
+  }
+}
+
+//1200px
+@mixin xl {
+  @media screen and (min-width: 75rem) {
+    @content;
+  }
+}
+
+//1536px
+@mixin xxl {
+  @media screen and (min-width: 96rem) {
+    @content;
+  }
+}
+
+// more info about ionic default breakpoint here
+// https://ionicframework.com/docs/layout/grid#default-breakpoints

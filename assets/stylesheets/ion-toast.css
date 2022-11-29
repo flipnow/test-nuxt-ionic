@@ -1,0 +1,64 @@
+.toast-content {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.success {
+  --notification-background: var(--notification-success);
+  --notification-text: var(--notification-success-text);
+}
+
+.error {
+  --notification-background: var(--notification-error);
+  --notification-text: var(--notification-error-text);
+}
+
+.warning {
+  --notification-background: var(--notification-warning);
+  --notification-text: var(--notification-warning-text);
+}
+
+.toast-button-group-start > button {
+  background-color: transparent;
+  border: 1px solid var(--gray-900);
+  border-radius: 100px;
+}
+
+.toast-button-group-start {
+  grid-column: 2;
+  grid-row: 2;
+  padding: 15px;
+}
+
+.toast-button-group-end {
+  grid-column: 3;
+  grid-row: 1/3;
+}
+
+@media screen and (min-width: 36rem) {
+  .toast-wrapper {
+    --width: 486px;
+    --start: initial;
+    --end: var(--margin-h-sm);
+    top: 96px !important;
+    margin: 0 !important;
+  }
+}
+
+@media screen and (min-width: 48rem) {
+  .toast-wrapper {
+    --end: var(--margin-h-md);
+  }
+}
+
+@media screen and (min-width: 62rem) {
+  .toast-wrapper {
+    --end: var(--margin-h-lg);
+  }
+}
+
+@media screen and (min-width: 96rem) {
+  .toast-wrapper {
+    --end: calc((100% - var(--max-width-xxl)) / 2);
+  }
+}

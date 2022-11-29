@@ -1,14 +1,29 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxtjs/ionic'],
+  css: ['@/assets/stylesheets/base.scss'],
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: '@import "@/assets/stylesheets/responsive.scss";',
+        },
+      },
+    },
+  },
+  modules: ['@pinia/nuxt', '@nuxtjs/ionic'],
+  ionic: {
+    integrations: {
+      meta: false,
+      pwa: false, // overrides meta tags
+    },
+  },
   app: {
     head: {
-      charset: 'utf-16',
-      viewport: 'width=500, initial-scale=1',
-      title: 'Default Title',
+      title: 'My App',
       meta: [
-        { name: 'description', content: 'Default Description' }
+        { name: 'description', content: 'Default Description' },
+        { name: 'og:description', content: 'Default Description' },
       ],
-    }
-  }
-})
+    },
+  },
+});
