@@ -19,13 +19,17 @@
 <script setup lang="ts">
 import { Event } from '@/types/LiveEvents';
 
-const { data } = await useFetch('/search/liveEvents', {
-  baseURL: import.meta.env.VITE_API_URL as string,
-  body: { eventIds: '7xjk8lotjth0fbyfm8uigbu' },
+const data = await $fetch(`${import.meta.env.VITE_API_URL}/search/liveEvents`, {
+  body: JSON.stringify({ eventIds: '7xjk8lotjth0fbyfm8uigbu' }),
+  headers: { 'Content-Type': 'application/json' },
   method: 'POST',
 });
 
+// definePageMeta({
+//   title: (data.value as { events: { rows: [Event] } })?.events?.rows?.[0]?.event?.eventName ?? 'Page',
+// });
+
 useHead({
-  title: (data.value as { events: { rows: [Event] } })?.events?.rows?.[0]?.event?.eventName ?? 'Test',
+  title: (data as { events: { rows: [Event] } })?.events?.rows?.[0]?.event?.eventName ?? 'Head',
 });
 </script>
