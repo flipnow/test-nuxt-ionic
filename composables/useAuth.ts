@@ -1,4 +1,4 @@
-import { useFirebase } from '~~/composables/useFirebase';
+import { useFirebase } from '@/composables/useFirebase';
 import { onAuthStateChanged, signInWithEmailAndPassword, signOut as firebaseSignOut } from 'firebase/auth';
 
 export function useAuth() {

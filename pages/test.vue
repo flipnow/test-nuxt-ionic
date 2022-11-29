@@ -11,6 +11,7 @@
           <ion-title size="large">Test</ion-title>
         </ion-toolbar>
       </ion-header>
+      {{ data }}
     </ion-content>
   </ion-page>
 </template>

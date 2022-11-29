@@ -3,6 +3,7 @@
     <ion-header>
       <ion-toolbar>
         <ion-title>Tab 1 {{ md }}</ion-title>
+        <router-link to="/test">Test</router-link>
       </ion-toolbar>
     </ion-header>
     <ion-content :fullscreen="true">
@@ -25,7 +26,8 @@ import { useCounterStore } from '@/stores/counterStore';
 import { fetchHomepage } from '@/services/search';
 import { Event } from '@/types/LiveEvents';
 import ShowCard from '@/components/ShowCard.vue';
-import { useMedia } from '~~/composables/useMedia';
+import { useMedia } from '@/composables/useMedia';
+import { HomepageSearchResults } from '@/types/SearchQuery';
 
 const { md } = useMedia();
 
@@ -45,12 +47,15 @@ onIonViewDidEnter(() => {
 const events = ref<Event[]>([]);
 
 const getData = async () => {
-  const { data } = await fetchHomepage({
-    page: 1,
-    showExpired: false,
-    size: 20,
+  const { data } = await useFetch<HomepageSearchResults>(`${import.meta.env.VITE_API_URL}/search/homepage`, {
+    method: 'POST',
+    body: {
+      page: 1,
+      showExpired: false,
+      size: 20,
+    },
   });
-  events.value = data.liveEventsPlanned.rows;
+  events.value = data.value?.liveEventsPlanned?.rows || [];
 };
 
 onMounted(() => {
