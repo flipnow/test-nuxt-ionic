@@ -19,9 +19,8 @@
 <script setup lang="ts">
 import { Event } from '@/types/LiveEvents';
 
-const data = await $fetch(`${import.meta.env.VITE_API_URL}/search/liveEvents`, {
-  body: JSON.stringify({ eventIds: '7xjk8lotjth0fbyfm8uigbu' }),
-  headers: { 'Content-Type': 'application/json' },
+const { data } = await useFetch(`${import.meta.env.VITE_API_URL}/search/liveEvents`, {
+  body: { eventIds: '7xjk8lotjth0fbyfm8uigbu' },
   method: 'POST',
 });
 
@@ -30,6 +29,6 @@ const data = await $fetch(`${import.meta.env.VITE_API_URL}/search/liveEvents`, {
 // });
 
 useHead({
-  title: (data as { events: { rows: [Event] } })?.events?.rows?.[0]?.event?.eventName ?? 'Head',
+  title: (data.value as { events: { rows: [Event] } })?.events?.rows?.[0]?.event?.eventName ?? 'Head',
 });
 </script>

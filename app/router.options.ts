@@ -17,6 +17,7 @@ export default <RouterConfig>{
         },
         {
           path: 'tab1',
+          name: 'Tab1',
           component: () => import('@/pages/tabs/tab1.vue'),
         },
         {
@@ -32,6 +33,7 @@ export default <RouterConfig>{
     },
     {
       path: '/test',
+      name: 'Test',
       component: () => import('@/pages/test.vue'),
     },
   ],

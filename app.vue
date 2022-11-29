@@ -5,6 +5,8 @@
 </template>
 
 <script setup lang="ts">
+await useSeoMeta();
+
 onMounted(() => {
   const { initAuth } = useAuth();
   initAuth();
