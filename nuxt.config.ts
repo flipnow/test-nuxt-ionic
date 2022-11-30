@@ -19,7 +19,6 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: 'My App',
       meta: [
         { name: 'description', content: 'Default Description' },
         { name: 'og:description', content: 'Default Description' },
