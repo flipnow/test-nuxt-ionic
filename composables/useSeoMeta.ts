@@ -3,13 +3,13 @@ import { Event } from '@/types/LiveEvents';
 import { storeToRefs } from 'pinia';
 
 export function useSeoMeta() {
-  const setHead = async () => {
+  const getHead = async () => {
     const route = useRoute();
 
     const { events } = storeToRefs(useCounterStore());
 
     if (route.name === 'Test') {
-      const data = await $fetch(`${import.meta.env.VITE_API_URL}/search/liveEvents`, {
+      const data = await $fetch(`https://europe-west1-elisashop-a7b5f.cloudfunctions.net/shopApi/search/liveEvents`, {
         body: { eventIds: 'ugn29046xzrbvyv0fbif9' },
         method: 'POST',
       });
@@ -21,5 +21,5 @@ export function useSeoMeta() {
       };
     }
   };
-  return { setHead };
+  return { getHead };
 }

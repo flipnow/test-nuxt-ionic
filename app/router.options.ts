@@ -36,5 +36,10 @@ export default <RouterConfig>{
       name: 'Test',
       component: () => import('@/pages/test.vue'),
     },
+    {
+      path: '/test-head',
+      name: 'TestHead',
+      component: () => import('@/pages/test-head.vue'),
+    },
   ],
 };

@@ -3,7 +3,8 @@
     <ion-header>
       <ion-toolbar>
         <ion-title>Tab 1 {{ md }}</ion-title>
-        <router-link to="/test">Test</router-link>
+        <router-link to="/test">Test meta from app</router-link>
+        <router-link to="/test-head">Test meta from page</router-link>
       </ion-toolbar>
     </ion-header>
     <ion-content :fullscreen="true">
@@ -47,14 +48,17 @@ onIonViewDidEnter(() => {
 const events = ref<Event[]>([]);
 
 const getData = async () => {
-  const { data } = await useFetch<HomepageSearchResults>(`${import.meta.env.VITE_API_URL}/search/homepage`, {
-    method: 'POST',
-    body: {
-      page: 1,
-      showExpired: false,
-      size: 20,
+  const { data } = await useFetch<HomepageSearchResults>(
+    `https://europe-west1-elisashop-a7b5f.cloudfunctions.net/shopApi/search/homepage`,
+    {
+      method: 'POST',
+      body: {
+        page: 1,
+        showExpired: false,
+        size: 20,
+      },
     },
-  });
+  );
   events.value = data.value?.liveEventsPlanned?.rows || [];
 };
 
