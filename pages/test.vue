@@ -11,24 +11,15 @@
           <ion-title size="large">Test</ion-title>
         </ion-toolbar>
       </ion-header>
-      {{ data }}
+      {{ events }}
     </ion-content>
   </ion-page>
 </template>
 
 <script setup lang="ts">
+import { useCounterStore } from '@/stores/counterStore';
 import { Event } from '@/types/LiveEvents';
+import { storeToRefs } from 'pinia';
 
-const { data } = await useFetch(`${import.meta.env.VITE_API_URL}/search/liveEvents`, {
-  body: { eventIds: '7xjk8lotjth0fbyfm8uigbu' },
-  method: 'POST',
-});
-
-// definePageMeta({
-//   title: (data.value as { events: { rows: [Event] } })?.events?.rows?.[0]?.event?.eventName ?? 'Page',
-// });
-
-useHead({
-  title: (data.value as { events: { rows: [Event] } })?.events?.rows?.[0]?.event?.eventName ?? 'Head',
-});
+const { events } = storeToRefs(useCounterStore());
 </script>
