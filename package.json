@@ -6,13 +6,15 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "build:ios": "npx nuxi generate; npx cap sync; npx cap open ios;"
+    "mobile:build": "vite build",
+    "dev:ios": "yarn mobile:build; npx cap sync; npx cap open ios;"
   },
   "devDependencies": {
     "@capacitor/cli": "4.5.0",
     "@nuxtjs/ionic": "^0.8.0",
     "nuxt": "3.0.0",
-    "sass": "^1.56.1"
+    "sass": "^1.56.1",
+    "vite-svg-loader": "^3.6.0"
   },
   "dependencies": {
     "@capacitor/app": "4.1.1",

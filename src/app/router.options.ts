@@ -18,16 +18,16 @@ export default <RouterConfig>{
         {
           path: 'tab1',
           name: 'Tab1',
-          component: () => import('@/pages/tabs/tab1.vue'),
+          component: () => import('@/pages/tab1.vue'),
         },
         {
           path: 'tab2',
           name: 'Tab2',
-          component: () => import('@/pages/tabs/tab2.vue'),
+          component: () => import('@/pages/tab2.vue'),
         },
         {
           path: 'tab3',
-          component: () => import('@/pages/tabs/tab3.vue'),
+          component: () => import('@/pages/tab3.vue'),
         },
       ],
     },
